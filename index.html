@@ -2,8 +2,11 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/98.css"
+>
 </head>
 
 <body>
@@ -16,19 +19,19 @@
         <div class="window">
             <div class="title-bar">
                 <div class="title-bar-text">Home</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
+                <div class="title-bar-controls" >
+                    <button aria-label="Minimize" ></button>
+                    <button aria-label="Maximize" ></button>
+                    <button aria-label="Close" ></button>
                 </div>
             </div>
             <div class="window-body">
                 <nav class="nav-icons">
-                    <a class="home-icon" onClick="showPage('home-page')">
+                    <a class="home-icon" onClick="showPage('home-page')" >
                         <img class="icon" src="https://i.imgur.com/CJmfFOx.png" alt="Home-Icon" />
                         <span>Home</span>
                     </a>
-
+                    
                     <a class="me-icon" onClick="showPage('about-page')">
                         <img class="icon" src="https://i.imgur.com/2Q1SICj.png" alt="About-Icon" />
                         <span>About Me</span>
@@ -43,243 +46,243 @@
                     </a>
 
                 </nav>
-
-                <section id="home-page" class="page active-page">
+                
+                <section id="home-page" class="page active-page" >
                     <div>
-
+                        
                         <fieldset>
                             <legend>Nyasia Overton</legend>
                             <img id="home-img" src="https://i.imgur.com/YXHN2Yr.jpeg" alt="My Photo" />
-                            <p id="quote">"Failure is simply the opportunity to begin again, this time more intelligently"</p>
-                            <p id="person">-Henry Ford</p>
+                            <p id="quote" >"Failure is simply the opportunity to begin again, this time more intelligently"</p>
+                            <p id="person" >-Henry Ford</p>
                         </fieldset>
-
+                        
                         <div class="window-body">
                             <fieldset>
                                 <legend>My Favorite Project</legend>
-                                <p>
-                                    My name is Nyasia Overton, and I am an aspiring software engineer. Currently sharpening my web development skills as a trainee at Hopeworks.
-                                </p>
-
-                                <img id="fav-proj" src="https://i.imgur.com/0VYkOXl.png" />
-
-                                <p id="fav-why">This is my favorite project, even though it is a work in progress, because it gave me the freedom to buid something entirely from scratch and bring an idea from my imagination into reality. </p>
+                            <p>
+                            My name is Nyasia Overton, and I am an aspiring software engineer. Currently sharpening my web development skills as a trainee at Hopeworks.
+                            </p>
+                            
+                           <img id="fav-proj" src="https://i.imgur.com/0VYkOXl.png" />
+                            
+                            <p id="fav-why" >This is my favorite project, even though it is a work in progress, because it gave me the freedom to buid something entirely from scratch and bring an idea from my imagination into reality. </p>
                             </fieldset>
                         </div>
-
+                        
                     </div>
                 </section>
-
-                <section id="about-page" class="page hidden-page">
+                
+                <section id="about-page" class="page hidden-page" >
                     <div>
                         <fieldset>
                             <legend>A Little More About Me</legend>
                             <p>
-                                My name is Nyasia Overton, and as an aspiring software engineer, I am deeply passionate about programming and bringing new ideas to life. My eagerness to continuously learn new concepts is what keeps me motivated.
+                            My name is Nyasia Overton, and as an aspiring software engineer, I am deeply passionate about programming and bringing new ideas to life. My eagerness to continuously learn new concepts is what keeps me motivated.
                             </p>
-
+                            
                             <p>I love projects that let me express my creative side, like my personal website. Where I built an eye catching, educational webpage dedicated to my favorite manga. As well as finally diving into game development by beginning a classic hand-drawn pet simulator game, built using HTML, CSS, and Python.</p>
-
+                            
                             <p>During my short but deeply educational internship with Habitat for Humanity Philadelphia, I found myself jumping right into things I initally thought I was too inexperienced for! I learned Power Automate on the fly, using it alongside JSON to build a fully automated ticketing system for the IT team, as well as creating and deploying custom XML configurations via Group Policy.</p>
-
+                            
                             <p>Throughout my early career, I've made sure to never be afraid of anything new, using continuous education as the true backbone of my skills.</p>
-
-
-
-                            <a href="https://drive.google.com/file/d/1-glNZgK15g1XesWdxx9btEb1UylNFW0c/view?usp=sharing" target="_blank" rel="noopener noreferrer">View My Resume</a>
+                            
+                            
+                            
+                            <a href="https://drive.google.com/file/d/1-glNZgK15g1XesWdxx9btEb1UylNFW0c/view?usp=sharing" target="_blank" rel="noopener noreferrer"  >View My Resume</a>
                             <hr>
-
-                            <a href="https://www.linkedin.com/in/nyasiaoverton/" target="_blank" rel="noopener noreferrer">Add Me on Linkedin</a>
+                            
+                            <a href="https://www.linkedin.com/in/nyasiaoverton/" target="_blank" rel="noopener noreferrer" >Add Me on Linkedin</a>
                         </fieldset>
-
+                     
                         <img src="" />
                     </div>
                 </section>
-
-                <section id="projects-page" class="page hidden-page">
+                
+                <section id="projects-page" class="page hidden-page" >
                     <div id="project-image">
                         <fieldset id="proj">
                             <legend>My Projects</legend>
-
-                            <menu role="tablist">
-                                <li role="tab" aria-selected="true">
-                                    <a href="#tabs" onClick="showPanel('tab-figma')">Figma</a>
-                                </li>
-                                <li role="tab">
-                                    <a href="#tabs" onClick="showPanel('tab-pw')">Personal Website</a>
-                                </li>
-                                <li role="tab">
-                                    <a href="#tabs" onClick="showPanel('tab-word')">Wordpress</a>
-                                </li>
-                                <li role="tab">
-                                    <a href="#tabs" onClick="showPanel('tab-python')">Python</a>
-                                </li>
-                                <li role="tab">
-                                    <a href="#tabs" onClick="showPanel('tab-pt')">Production Test</a>
-                                </li>
-                                <li role="tab">
-                                    <a href="#tabs" onClick="showPanel('tab-gis')">GIS</a>
-                                </li>
+                    
+                           <menu role="tablist">
+                               <li role="tab" aria-selected="true">
+                               <a href="#tabs" onClick="showPanel('tab-figma')">Figma</a>
+                               </li>
+                               <li role="tab" >
+                               <a href="#tabs" onClick="showPanel('tab-pw')">Personal Website</a>
+                               </li>
+                               <li role="tab" >
+                               <a href="#tabs" onClick="showPanel('tab-word')">Wordpress</a>
+                               </li>
+                               <li role="tab" >
+                               <a href="#tabs" onClick="showPanel('tab-python')">Python</a>
+                               </li>
+                               <li role="tab" >
+                               <a href="#tabs" onClick="showPanel('tab-pt')">Production Test</a>
+                               </li>
+                               <li role="tab" >
+                               <a href="#tabs" onClick="showPanel('tab-gis')">GIS</a>
+                               </li>
                             </menu>
-
-
-                            <article role="tabpanel" id="tab-figma" class="tab-panel active-panel">
-
-                                <a href="https://www.figma.com/proto/oTYdaL1uxOKPkdNJCx7xPR/HomePages?node-id=0-1&t=YF2Ly9dWoJBe1Scr-1">
-                                    <img class="thumb" src="https://i.imgur.com/qqONcSC.png" />
+                               
+                            
+                            <article role="tabpanel" id="tab-figma" class="tab-panel active-panel" >
+                                
+                             <a href="https://www.figma.com/proto/oTYdaL1uxOKPkdNJCx7xPR/HomePages?node-id=0-1&t=YF2Ly9dWoJBe1Scr-1">
+                                <img class="thumb" src="https://i.imgur.com/qqONcSC.png" />
                                 </a>
-                                <br />
-
-
+                                <br/>
+  
+ 
                                 <span>This is my own rendition of Glossier's landing page for one of their new products. I took their marketing picture and used AI to zoom it out, and create the scene I wanted. Added graphics, then their signature font and navigation bar. This project took me one day. </span>
-
+                                
                                 <a href="https://www.figma.com/design/uIj1KPPywke0hynp73sJBT/Berserk-Website?node-id=0-1&t=P8xOTqQEOL2eKtOw-1">
-                                    <img class="thumb" src="https://i.imgur.com/pytyB44.png" />
+                                    <img  class="thumb" src="https://i.imgur.com/pytyB44.png" />
                                 </a>
-                                <br />
+                                <br/>
                                 <span>This is the wireframe for my personal website, allowing me to figure out how I would get the Berserk style across while keeping it professional. This took me one day.</span>
-
+                                
                                 <a href="https://www.figma.com/design/6X7rmt2RKWBlmnZ2Y9Yo37/wireframe?node-id=0-1&t=x0Ot3iyBnik2UVnC-1">
-                                    <img class="thumb" src="https://i.imgur.com/qNiGioe.png" />
+                                    <img  class="thumb" src="https://i.imgur.com/qNiGioe.png" />
                                 </a>
-                                <br />
+                                <br/>
                                 <span>This is the style guide and wireframe for my mock Thrift Store website. allowing me to visualize the "customers" vision, as well as giving me a good layout to follow. This took me one day.</span>
-
+                                
                             </article>
-
-                            <article role="tabpanel" id="tab-pw" class="tab-panel">
-
-                                <a href="https://codepen.io/editor/Nyasia-Overton/pen/019fd2a2-0b1e-7d48-b97e-8dce6b06b60f">
-
-                                    <img class="thumb" src="https://i.imgur.com/yYI0Cvb.png" />
+                            
+                           <article role="tabpanel" id="tab-pw" class="tab-panel" >
+                                
+                             <a href="https://codepen.io/editor/Nyasia-Overton/pen/019fd2a2-0b1e-7d48-b97e-8dce6b06b60f">
+                                 
+                               <img class="thumb" src="https://i.imgur.com/yYI0Cvb.png" />
+                               </a>
+                               <br/>
+                            <span>An educational deep dive into the most famous arc, of my favorite manga. With this project I taught myself more advanced sytaxes and semantics, using AI as a tool. Like figuring out that a parallaxed background is easy, double the backgorund size. This Project took me three weeks.</span>
+                                
+                            </article>
+                            
+                            <article role="tabpanel" id="tab-word" class="tab-panel" >
+                                
+                             <a href="https://thekelpcanopy.wordpress.com/">
+                                <img class="thumb" src="https://i.imgur.com/PFsOS7l.png" />
                                 </a>
-                                <br />
-                                <span>An educational deep dive into the most famous arc, of my favorite manga. With this project I taught myself more advanced sytaxes and semantics, using AI as a tool. Like figuring out that a parallaxed background is easy, double the backgorund size. This Project took me three weeks.</span>
-
+                                <br/>
+                            <span>This is a blog style website deticated to my favorite animal. The feirocious furballs that are otters. In it i explain the importance of otter to the kelp ecosystem. As well as dicussing how they are alot more evil then they look. This project took me about one week.</span>
+                                
                             </article>
-
-                            <article role="tabpanel" id="tab-word" class="tab-panel">
-
-                                <a href="https://thekelpcanopy.wordpress.com/">
-                                    <img class="thumb" src="https://i.imgur.com/PFsOS7l.png" />
+                            
+                            <article role="tabpanel" id="tab-python" class="tab-panel" >
+                                
+                             <a href="https://app.bsd.education/share/o/wwz87rvh">
+                                <img class="thumb" src="https://i.imgur.com/0VYkOXl.png" />
                                 </a>
-                                <br />
-                                <span>This is a blog style website deticated to my favorite animal. The feirocious furballs that are otters. In it i explain the importance of otter to the kelp ecosystem. As well as dicussing how they are alot more evil then they look. This project took me about one week.</span>
-
+                                <br/>
+                            <span>My favorite project, my hand-drawn pet simulator. figuring out how to get the picture I wanted to create with simple shapes in figma was the most challenging part. But once I got the hang of it, it became effortless. This project is still a big work in progress.</span>
+                                
                             </article>
-
-                            <article role="tabpanel" id="tab-python" class="tab-panel">
-
-                                <a href="https://app.bsd.education/share/o/wwz87rvh">
-                                    <img class="thumb" src="https://i.imgur.com/0VYkOXl.png" />
+                            
+                            <article role="tabpanel" id="tab-pt" class="tab-panel" >
+                                
+                             <a href="https://codepen.io/editor/Nyasia-Overton/pen/01a11ccd-d1b5-730b-89b1-dae80e454ce3">
+                                <img class="thumb" src="https://i.imgur.com/B6pEFVc.png" />
                                 </a>
-                                <br />
-                                <span>My favorite project, my hand-drawn pet simulator. figuring out how to get the picture I wanted to create with simple shapes in figma was the most challenging part. But once I got the hang of it, it became effortless. This project is still a big work in progress.</span>
-
+                                <br/>
+                            <span>This is a mock website created for a fake thrift store. While creating this I made sure to adhere to the "customers desires", and make a succinct site. This took me around two weeks to complete.</span>
+                                
                             </article>
-
-                            <article role="tabpanel" id="tab-pt" class="tab-panel">
-
-                                <a href="https://codepen.io/editor/Nyasia-Overton/pen/01a11ccd-d1b5-730b-89b1-dae80e454ce3">
-                                    <img class="thumb" src="https://i.imgur.com/B6pEFVc.png" />
+                            
+                            <article role="tabpanel" id="tab-gis" class="tab-panel" >
+                                
+                             <a href="https://arcg.is/0Wbnzu2">
+                                <img class="thumb" src="https://i.imgur.com/wklVJV0.png" />
                                 </a>
-                                <br />
-                                <span>This is a mock website created for a fake thrift store. While creating this I made sure to adhere to the "customers desires", and make a succinct site. This took me around two weeks to complete.</span>
-
+                                <br/>
+                            <span>This map was created in ArcGIS. It shows census tracts in Newark, NJ, that have many households without access to a vehicle. This map took me one day to create.</span>
+                                
                             </article>
-
-                            <article role="tabpanel" id="tab-gis" class="tab-panel">
-
-                                <a href="https://arcg.is/0Wbnzu2">
-                                    <img class="thumb" src="https://i.imgur.com/wklVJV0.png" />
-                                </a>
-                                <br />
-                                <span>This map was created in ArcGIS. It shows census tracts in Newark, NJ, that have many households without access to a vehicle. This map took me one day to create.</span>
-
-                            </article>
-
-
+                            
+                            
                     </div>
                 </section>
-
-                <section id="contact-page" class="page hidden-page">
+                
+                <section id="contact-page" class="page hidden-page" >
                     <div>
                         <fieldset>
                             <legend>How You Can Stay Connected</legend>
-                            <a href="https://github.com/nyasiaJoy" taregt="_blank" rel="noopener noreferrer">
+                             <a href="https://github.com/nyasiaJoy" taregt="_blank" rel="noopener noreferrer">
                                 <img id="github" src="https://i.imgur.com/srjP3Ui.png" />
                             </a>
-
+                            
                             <a href="https://www.linkedin.com/in/nyasiaoverton/" target="_blank" rel="noopener noreferrer">
                                 <img id="linkedin" src="https://i.imgur.com/GMxnefr.png" />
                             </a>
                         </fieldset>
-
+                        
                         <fieldset>
                             <legend>Contact Me Directly > ~Overtonnyasia@gmail.com~</legend>
-                            <form action="https://formspree.io/f/xwllqael" method="POST">
-                                <div class="field-row-stacked">
-                                    <label for="name">Name</label>
-                                    <input id="name" name="name" type="text" required />
-                                    <label for="email">Email</label>
-                                    <input id="email" name="_replyto" type="text" required />
-                                    <label for="message">Your Message</label>
-                                    <textarea id="message" name="message" required></textarea>
-                                    <button type="submit">Send!</button>
-                                </div>
-                            </form>
+                          <form action="https://formspree.io/f/xwllqael" method="POST"> 
+                            <div class="field-row-stacked" >
+                                <label for="name" >Name</label>
+                                <input id="name" name="name" type="text" required />
+                                <label for="email" >Email</label>
+                                <input id="email" name="_replyto" type="text" required />
+                                <label for="message" >Your Message</label>
+                                <textarea id="message" name="message" required ></textarea>
+                                <button type="submit">Send!</button>
+                            </div>
+                            </form> 
                         </fieldset>
-
+                            
                     </div>
                 </section>
-
-
-
-
-
+                
+                
+                
+                
+                
             </div>
         </div>
 
     </div>
 
-    <div class="taskbar">
-        <details>
-            <summary class="start-btn">
-                <img id="logo" src="https://i.imgur.com/ltvgIV1.png" />
-            </summary>
-            <nav class="start-menu">
-                <ul class="icon-list">
-                    <li>
-                        <a href="#home-page">
-                            <img class="small" src="https://i.imgur.com/CJmfFOx.png" />
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about-page">
-                            <img class="small" src="https://i.imgur.com/2Q1SICj.png" />
-                            About Me
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects-page">
-                            <img class="small" src="https://i.imgur.com/Nazpe2x.png" />
-                            Projects
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact-page">
-                            <img class="small" src="https://i.imgur.com/Nb5GFoQ.png" />
-                            Contact Me
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </details>
-
-
+<div class="taskbar" >
+    <details>
+  <summary class="start-btn" >
+      <img id="logo" src="https://i.imgur.com/ltvgIV1.png"/>
+  </summary>
+  <nav class="start-menu" >
+      <ul class="icon-list" >
+          <li>
+              <a href="javascript:void(0)" onClick="showPage('home-page')">
+                  <img class="small" src="https://i.imgur.com/CJmfFOx.png" />
+                  Home
+              </a>
+          </li>
+          <li>
+              <a href="javascript:void(0)" onClick="showPage('about-page')">
+                  <img class="small" src="https://i.imgur.com/2Q1SICj.png" />
+                  About Me
+              </a>
+         </li>
+          <li>
+              <a href="javascript:void(0)" onClick="showPage('projects-page')">
+                  <img class="small" src="https://i.imgur.com/Nazpe2x.png" />
+                  Projects
+              </a>
+          </li>
+          <li>
+              <a href="javascript:void(0)" onClick="showPage('contact-page')" >
+                  <img class="small" src="https://i.imgur.com/Nb5GFoQ.png" />
+                  Contact Me
+              </a>
+          </li>
+      </ul>
+   </nav>
+    </details>
+    
+    
     </div>
-    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
