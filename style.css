@@ -1,0 +1,134 @@
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+.hidden-page {
+    display: none;
+}
+
+.active-page {
+    display: block;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.active-panel {
+    display: block;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-img {
+    display: block;
+    width: 45%;
+    height: auto;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+    box-shadow: inset 1px 1px 0px #000000, 1px 1px 0px #dfdfdf;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.field-row-stacked {
+    width: 350px;
+}
+
+.window {
+    height: auto;
+    min-height: 100vh;
+}
+
+#logo {
+    width: 45px;
+    height: 40px;
+}
+
+#fav-proj {
+    display: block;
+    width: 45%;
+    height: auto;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+    box-shadow: inset 1px 1px 0px #000000, 1px 1px 0px #dfdfdf;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+#github {
+    width: 35px;
+    height: auto;
+}
+
+#linkedin {
+    width: 35px;
+    height: auto;
+}
+
+.thumb {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+    box-shadow: inset 1px 1px 0px #000000, 1px 1px 0px #dfdfdf;
+    padding: 2px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#proj {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#proj menu[role="tablist"] {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.small {
+    width: 45px;
+    height: auto;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.taskbar details {
+    position: relative;
+    display: inline-block;
+}
+
+.start-menu {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 2px;
+    z-index: 1001;
+    background-color: #c0c0c0;
+    padding: 2px;
+    margin-left: 10px;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+    box-shadow: inset 1px 1px 0px #000000, 1px 1px 0px #dfdfdf;
+
+}
